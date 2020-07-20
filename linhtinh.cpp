@@ -1,8 +1,9 @@
 #include <stdio.h>
-
+//So dac biet
 int main() {
 	long long n;
 	
+	printf("Nhap so n: ");
 	scanf("%lld", &n);
 	
 	for (long long i = 2; i * i <= n; ++i)
